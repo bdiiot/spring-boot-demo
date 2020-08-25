@@ -14,7 +14,7 @@ com.bdiiot.springboot.demo.SpringBootDemoApplicationTests
 ## 运行测试
 com.bdiiot.springboot.demo.controller.SysUserController
 ## 小结
-** 注意 classpath*，要有 *，否则加载不到自定义路径 **  
+注意 classpath*，要有 *，否则加载不到自定义路径  
 com.bdiiot.springboot.demo.config.MybatisConfig
 
-** 谨慎使用 org.mybatis.generator，再次生成，xml内容会「追加」，启动会报错 **
+谨慎使用 org.mybatis.generator，再次生成，xml内容会「追加」，启动会报错
